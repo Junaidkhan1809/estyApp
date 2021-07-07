@@ -6,8 +6,11 @@ import { Avatar } from 'react-native-paper';
 
 function ProfileLogo()  {
   return(
+    <View>
+      Added manually
     <View style={styles.view}>
-  <Avatar.Image size={81} source={require('../assets/Profile.png')} />
+  <Avatar.Image size={80} source={require('../assets/Profile.png')} />
+  </View>
   </View>
   )}
 
